@@ -20,7 +20,7 @@ tile_provider = get_provider(Vendors.CARTODBPOSITRON)
 p = figure(x_axis_type="mercator", y_axis_type="mercator", plot_width=1200, plot_height=960, tools=['pan', 'tap',
                                                                                                     'wheel_zoom',
                                                                                                     'save', 'reset'])
-p.title.text = 'Occurence of the marmelade hoverfly (Episyrphus balteatus) in the Netherlands'
+p.title.text = 'Occurence of the marmalade hoverfly (Episyrphus balteatus) in the Netherlands'
 p.xaxis.axis_label = 'Longitude'
 p.yaxis.axis_label = 'Latitude'
 p.add_tile(tile_provider)
